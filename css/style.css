@@ -1,0 +1,223 @@
+:root {
+    --offWhite: #fefefe;
+    --offBlack: #222222;
+    --black: #000000;
+    --textLight1: #e6e6e6;
+    --textLight2: #cccccc;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent;
+}
+
+input, textarea, button, select, a, div, img {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+header {
+    position: fixed;
+    z-index: 98;
+    width: 100%;
+    height: .9in;
+}
+
+main {
+    z-index: 0;
+    width: 100%;
+}
+
+section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* ------------------ */
+
+.glass {
+    backdrop-filter: blur(30px);
+}
+
+.header-icon {
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    height: .75in;
+    width: .75in;
+    padding: 10px;
+    content: url("../logo/sunfuel.svg");
+    cursor: pointer;
+}
+
+.nav-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav-item-container
+{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.center-content {
+    position: relative;
+    height: 100%;
+    width: 60%;
+}
+
+.center-content-row {
+    width: 100%;
+}
+
+.center-para {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.icon-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-holder {
+    width: 50%;
+    position: relative;
+}
+
+.icon {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100px;
+}
+
+.icon-small {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 60px;
+}
+
+.icon-text {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.text-small{
+padding: 0!important;
+font-size: 14px!important;
+}
+/* ------------------ */
+
+.x-center {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.all-center {
+    display: grid;
+    place-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.full-screen {
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+
+.text-light {
+    color: var(--textLight2);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.left-div {
+    position: relative;
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+
+.right-div {
+    position: relative;
+    float: right;
+    width: 45%;
+    height: 100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.noDisplay {
+    display: none!important;
+}
+
+.brdr {
+    border: 1px solid white;
+}
+
+.small-x {
+    height: 80vh !important;
+}
+
+.small-xs {
+    height: 60vh !important;
+}
+
+#loaderDiv {
+    position: absolute;
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    background-color: var(--offBlack);
+}
+
+/* mobile portrait */
+
+@media only screen and (max-width: 567px) {}
+
+/* mobile landscape, tab */
+
+@media only screen and (min-width: 568px) and (max-width: 1024px) {}

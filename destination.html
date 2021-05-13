@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description"
+        CONTENT="Sunfuel Electric - India's Newest EV Charging Network. Sunfuel Electric enables Indian EV owners to charge everywhere, thus drive anywhere through its EV charging network. ">
+    <meta name="keywords"
+        content="Sunfuel, Sunfuel Electric, EV, EV Charging India, Electric Vehicle charging in India, EV charging network India, electric vehicle">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="user-scalable=no, width=device-width,height=device-height, initial-scale=1.0" />
+    <link rel="icon" href="logo/sunfuel.svg">
+    <title>Destination Chargers | Sunfuel</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/destination/destination.css">
+    <script defer type="text/javascript" src="js/jquery/jquery-3.5.1.min.js"></script>
+    <script defer type="text/javascript" src="js/gsap/gsap.min.js"></script>
+    <script defer type="text/javascript" src="js/gsap/ScrollTrigger.min.js"></script>
+    <script defer type="text/javascript" src="js/script.js"></script>
+    <script defer type="text/javascript" src="js/destination/destination.js"></script>
+
+    <script>
+        window.onbeforeunload = function () {
+            window.scrollTo(0, 0);
+        };
+    </script>
+</head>
+
+<body>
+    <div id="loaderDiv" class="all-center">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="header-icon" onclick="navigateTo('home')"></div>
+    <header>
+        <div class="nav-container x-center dark glass">
+            <div class="nav-item-container">
+                <div class="nav-item all-center">EV CHARGING</div>
+                <div class="nav-item all-center">THE NETWORK</div>
+                <div class="nav-item all-center">ALL CHARGERS</div>
+                <div class="nav-item all-center">E-TRAILS</div>
+                <div class="nav-item all-center">APP</div>
+                <div class="nav-item all-center">ABOUT US</div>
+            </div>
+        </div>
+    </header>
+    <main id="content" class="site-content" role="main">
+        <section class="full-screen">
+            <div class="ds-l1"></div>
+            <div class="ds-l2-l1"></div>
+            <div class="ds-l2-l2"></div>
+            <div class="ds-l3 up_reveal_first">DESTINATION CHARGING</div>
+        </section>
+        <section class="full-screen" style="z-index: 5;">
+            <div class="center-content x-center all-center">
+                <p class="center-para up_reveal_small">CHARGE ANYWHERE
+                    <br />
+                    <span class="text-light">
+                        Charge for a few hours or overnight when you arrive at Destination Charging
+                        locations - at hotels, restaurants, and shopping centers across the country.
+                    </span>
+                </p>
+                <div class="pic-container all-center up_reveal_small">
+                    <div id="chargeAny"></div>
+                </div>
+                <div class="icon-row up_reveal_small">
+                    <div class="icon-holder">
+                        <div id="icon-cloud" class="icon-small"></div>
+                        <div class="icon-text text-light text-small">Restaurants</div>
+                    </div>
+                    <div class="icon-holder">
+                        <div id="icon-cloud" class="icon-small"></div>
+                        <div class="icon-text text-light text-small">Residential Societies</div>
+                    </div>
+                    <div class="icon-holder">
+                        <div id="icon-cloud" class="icon-small"></div>
+                        <div class="icon-text text-light text-small">Hotels & Resorts</div>
+                    </div>
+                    <div class="icon-holder">
+                        <div id="icon-cloud" class="icon-small"></div>
+                        <div class="icon-text text-light text-small">Malls</div>
+                    </div>
+                    <div class="icon-holder">
+                        <div id="icon-cloud" class="icon-small"></div>
+                        <div class="icon-text text-light text-small">Hospitals</div>
+                    </div>
+                    <div class="icon-holder">
+                        <div id="icon-cloud" class="icon-small"></div>
+                        <div class="icon-text text-light text-small">Offices</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="full-screen">
+            <div class="center-content x-center up_reveal_small">
+                <div id="charge-360" class="all-center">
+                    <div id="charge-pulse"></div>
+                    <div id="charge-text"></div>
+                    <div id="charge-ring"></div>
+                </div>
+            </div>
+        </section>
+        <section id="panels">
+            <div id="panels-container" style="width: 400%;">
+                <div class="hardware-fixed-head">
+                    HARDWARE
+                </div>
+                <article id="panel-1" class="panel full-screen">
+                    <div class="center-content x-center">
+                        <div class="left-div all-center">
+                            <p>
+                                <!-- HARDWARE -->
+                                <br />
+                                <span class="text-light">
+                                    The beacon at the peak of the Monolith works as a visual
+                                    signal.
+                                </span>
+                            </p>
+                        </div>
+                        <div id="crg-exp-1" class="right-div all-center">
+                        </div>
+                    </div>
+                </article>
+                <article id="panel-2" class="panel full-screen">
+                    <div class="center-content x-center">
+                        <div class="left-div all-center">
+                            <p>
+                                <!-- HARDWARE -->
+                                <br />
+                                <span class="text-light">
+                                    The nozzle is docked at the rear to prevent the cable from falling on the parking
+                                    space.
+                                </span>
+                            </p>
+                        </div>
+                        <div id="crg-exp-2" class="right-div all-center">
+                        </div>
+                    </div>
+                </article>
+                <article id="panel-3" class="panel full-screen">
+                    <div class="center-content x-center">
+                        <div class="left-div all-center">
+                            <p>
+                                <!-- HARDWARE -->
+                                <br />
+                                <span class="text-light">
+                                    Ensures secure connection with the Electric Car before every charge session.
+                                </span>
+                            </p>
+                        </div>
+                        <div id="crg-exp-3" class="right-div all-center">
+                        </div>
+                    </div>
+                </article>
+                <article id="panel-4" class="panel full-screen">
+                    <div class="center-content x-center">
+                        <div class="left-div all-center">
+                            <p>
+                                <!-- HARDWARE -->
+                                <br />
+                                <span class="text-light">
+                                    Two modes of payment:
+                                    <br />
+                                    With the RFID card provided with the unit or issued by SunFuel Electric.
+                                    <br />
+                                    OR
+                                    <br />
+                                    Scan QR to access the Statiq app for Android and iOS devices.
+
+                                </span>
+                            </p>
+                        </div>
+                        <div id="crg-exp-4" class="right-div all-center">
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="full-screen">
+            <div class="center-content x-center">
+                <div id="icon-left-container" class="left-div all-center up_reveal_small">
+                    <div>
+                        <p>SPECIFICATIONS</p>
+                        <p class="text-light">Level-2 AC7.7kWh electric car charger</p>
+                        <p class="text-light">Service excellence</p>
+                        <p class="text-light">Thoughtfully designed to be intutive</p>
+                        <p class="text-light">Robust frame and panels</p>
+                        <p class="text-light">App integrated for a seamless experience</p>
+                    </div>
+                </div>
+                <div id="icon-right-container" class="right-div all-center">
+                    <div class="full-width up_reveal_small">
+                        <div class="icon-row">
+                            <div class="icon-holder">
+                                <div id="icon-cloud" class="icon"></div>
+                                <div class="icon-text text-light">Cloud Connectivity</div>
+                            </div>
+                            <div class="icon-holder">
+                                <div id="icon-fame" class="icon"></div>
+                                <div class="icon-text text-light">Floor Mounted Frame</div>
+                            </div>
+                        </div>
+                        <div class="icon-row">
+                            <div class="icon-holder">
+                                <div id="icon-plug" class="icon"></div>
+                                <div class="icon-text text-light">IEC 62196 Type2 AC</div>
+                            </div>
+                            <div class="icon-holder">
+                                <div id="icon-build" class="icon"></div>
+                                <div class="icon-text text-light">Weather-proof Build</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="full-screen">
+            <div class="center-content x-center up_reveal_small">
+                <div id="env"></div>
+            </div>
+        </section>
+        <section class="full-screen small-xs">
+            <div class="center-content x-center">
+                <div id="community-left" class="left-div all-center up_reveal_small">
+                    <p>
+                        COMMUNITY
+                        <br />
+                        <span class="text-light">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, vitae? Eaque, nulla
+                            commodi doloremque velit omnis suscipit? Ab, veniam. Nobis et, veritatis assumenda illo nemo
+                            quas blanditiis minima labore quaerat.
+                        </span>
+                    </p>
+                </div>
+                <div id="community-right" class="right-div all-center">
+                </div>
+            </div>
+        </section>
+        <section class="full-screen small-x">
+            <div class="center-content x-center">
+                <div id="msg-left" class="left-div all-center">
+                </div>
+                <div id="msg-right" class="right-div all-center up_reveal_small">
+                    <div>
+                        <div id="comma"></div>
+                        <p class="text-center">
+                            <span class="text-light">At Sunfuel we are determined to accelerate the adoption
+                                of
+                                electric vehicles in India. It is our endeavor to create a community of EV
+                                enthusiasts and give them the freedom to charge everywhere and drive
+                                anywhere.</span>
+                        </p>
+                        <div id="comma"></div>
+                        <p class="text-center">
+                            Gul Panag
+                            <br />
+                            <span class="text-light">Co-Founder & Head Of Partnerships & Community</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="full-screen">
+            <div class="center-content x-center up_reveal_small">
+                <div class="text-center">
+                    3 PHASE STANDARD IMPLEMENTATION
+                </div>
+                <br />
+                <div class="text-center">
+                    <span class="text-light">Three weeks to a seam-less charging experience</span>
+                </div>
+                <br />
+                <div class="center-content-row text-light text-center">
+                    <!-- WEEK 1 &#8213;&#8213;&#8213;&#8213;&#8213;&#8213;&#8213;&#8213;&#8213;&#8213;&#8213; WEEK 2
+                    &#8213;&#8213;&#8213;&#8213;&#8213;&#8213;&#8213;&#8213;&#8213;&#8213;&#8213; WEEK 3 -->
+                    <div class="threePhaseControl">
+                        <div class="btnHead text-light">WEEK 1
+                        </div>
+                        <div class="right-arrow"></div>
+                        <div class="btnHead text-light">WEEK 2
+                        </div>
+                        <div class="right-arrow"></div>
+                        <div class="btnHead text-light">WEEK 3</div>
+                    </div>
+                    <br />
+                    <div class="threePhaseControl">
+                        <div id="ctrlOne" class="btnCtrl ctrlBtnOne text-light">SITE SURVEY & DESIGN APPROVAL
+                        </div>
+                        <div id="ctrlTwo" class="btnCtrl btnCtrlGeneric text-light">ELECTRICAL & CIVIL WORK
+                        </div>
+                        <div id="ctrlThree" class="btnCtrl btnCtrlGeneric text-light">INSTALLATION &
+                            COMMISSIONING</div>
+                    </div>
+                    <br />
+                    <div class="trans-container full-width">
+                        <div id="phaseDiveOne" class="threePhase textCenter full-width">
+                            <span class="text-light">
+                                Step 1: Site Survey & Photography<br />
+                                Step 2: Mapping of Electricity and Internet lines<br />
+                                Step 3: Design Render<br />
+                                Step 4: Submission of Electricity Line maps, Internet cabling map and site renders<br />
+                                Step 5: Design Approval from your Architecture & Engineering Teams
+                            </span>
+                        </div>
+                        <div id="phaseDiveTwo" class="threePhase text-center full-width">
+                            <span class="text-light">
+                                Step 1: Electrical Work - drawing electricity and laying of underground conduit
+                                pipes<br />
+                                Step 2: Application of a separate commercial meter if required<br />
+                                Step 3: Laying down internet connectivity cables<br />
+                                Step 4: Civil work as per the approved design<br />
+                            </span>
+                        </div>
+                        <div id="phaseDiveThree" class="threePhase text-center full-width">
+                            <span class="text-light">
+                                Step 1: Delivery of physical chargers at the premises<br />
+                                Step 2: Quality check for any blemishes, dimples or scratches that might happen during
+                                transit<br />
+                                Step 3: Installation of chargers and connection of Electricity and Internet cables<br />
+                                Step 4: On-Site testing and handover to your engineering team<br />
+                            </span>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="full-screen">
+            <div class="center-content x-center all-center">
+                <div class="center-content-row text-center up_reveal_small">EV ENABLEMENT IS A POSITIVE SUM GAME</div>
+                <div class="center-content-row up_reveal_small">
+                    <div id="icon-cust-exp" class="left-div">
+                    </div>
+                    <div id="icon-cust-text" class="right-div">
+                        <p>Customer Experience:&nbsp;<span class="text-light">Your guests who drive an electric car will
+                                be
+                                delighted to visit those properties where they can plug-in their new EV as they have a
+                                good time.</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="center-content-row up_reveal_small">
+                    <div id="icon-fleet-exp" class="left-div">
+                    </div>
+                    <div id="icon-fleet-text" class="right-div">
+                        <p>Fleet Electrification:&nbsp;<span class="text-light">Captive charging facility can be the
+                                first step towards moving your fleet to electric mobility. The savings on cost and
+                                carbon credits has already made electric mobility the most compelling choice for fleet
+                                operators.</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="center-content-row up_reveal_small">
+                    <div id="icon-green-exp" class="left-div">
+                    </div>
+                    <div id="icon-green-text" class="right-div">
+                        <p>Compliance with Green Building Certification:&nbsp;<span class="text-light">While EV Charging
+                                facility earns crucial points in green-building certification, it helps in improving
+                                operational efficiency as well. EV enablement of your premises will add value to both
+                                aspects of Quality.</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="center-content-row up_reveal_small">
+                    <div id="icon-en-exp" class="left-div">
+                    </div>
+                    <div id="icon-en-text" class="right-div">
+                        <p>Clean Energy for for Green Mobility:&nbsp;<span class="text-light">If the premise is already
+                                solar powered, you are at an advantage to claim the badge of EV enablement tending to a
+                                net-zero carbon footprint.</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="center-content-row">
+                </div>
+            </div>
+        </section>
+        <section class="full-screen">
+            <div class="center-content x-center all-center up_reveal_small">
+                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                <div class="elfsight-app-1790c565-9d55-4e8c-9f14-10cf4d4996af"></div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

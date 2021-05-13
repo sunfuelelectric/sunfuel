@@ -1,0 +1,391 @@
+body {
+    background-color: var(--black);
+    color: var(--textLight1);
+}
+
+.dark {
+    background-color: var(--black);
+    opacity: .8;
+}
+
+.ds-l1 {
+    position: absolute;
+    z-index: 1;
+    left: 20%;
+    top: 30%;
+    width: 44%;
+    height: 30%;
+    background-image: url("../../images/destination/MONOLITHtitle-06.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ds-l2-l1 {
+    position: absolute;
+    z-index: 2;
+    left: 5%;
+    top: 5%;
+    width: 120%;
+    height: 110%;
+    background-image: url("../../images/destination/Cover-BASE.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ds-l2-l2 {
+    position: absolute;
+    z-index: 3;
+    left: 5%;
+    top: 5%;
+    width: 120%;
+    height: 110%;
+    background-image: url("../../images/destination/Light-LAYER.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: fade 3s linear infinite;
+}
+
+.ds-l3 {
+    position: absolute;
+    z-index: 4;
+    left: 20%;
+    top: 50%;
+    width: auto;
+    height: auto;
+    font-size: 31px;
+    padding-left: 10px;
+}
+
+.pic-container {
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#chargeAny {
+    height: 100%;
+    content: url("../../images/destination/IMAGE-01.jpg");
+    border-radius: 20px;
+}
+
+#charge-360 {
+    height: 80%;
+    width: 100%;
+    position: absolute;
+}
+
+#charge-pulse {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    content: url("../../gif/destination/360-pulse_1.gif");
+}
+
+#charge-text {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    content: url("../../images/destination/360-text-06.svg");
+}
+
+#charge-ring {
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    content: url("../../images/destination/360-ring-06.svg");
+}
+
+#crg-exp-1 {
+    background-image: url("../../images/destination/ChargingExperience1-02.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#crg-exp-2 {
+    background-image: url("../../images/destination/ChargingExperience2-03.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#crg-exp-3 {
+    background-image: url("../../images/destination/ChargingExperience3-04.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#crg-exp-4 {
+    background-image: url("../../images/destination/ChargingExperience4-05.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#icon-left-container {
+    width: 40%;
+}
+
+#icon-right-container {
+    width: 55%;
+}
+
+#icon-cloud {
+    background-image: url("../../icons/destination/cloud-02.svg");
+}
+
+#icon-fame {
+    background-image: url("../../icons/destination/frame-03.svg");
+}
+
+#icon-plug {
+    background-image: url("../../icons/destination/nozzle-05.svg");
+}
+
+#icon-build {
+    background-image: url("../../icons/destination/weather-proof-04.svg");
+}
+
+#env {
+    width: 100%;
+    content: url("../../images/destination/IMAGE-01.jpg");
+    border-radius: 20px;
+}
+
+#community-left {
+    width: 60%;
+}
+
+#community-right {
+    width: 40%;
+    height: 250px;
+    background-image: url("../../images/destination/e-trails-logo-09.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#msg-left {
+    width: 40%;
+    height: 400px;
+    background-image: url("../../images/destination/Gul-Panag.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#msg-right {
+    width: 60%;
+}
+
+#comma {
+    width: 100%;
+    height: 45px;
+    background-image: url("../../images/destination/double-quotation-09.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.trans-container {
+    position: relative;
+}
+
+#phaseDiveOne {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 2s all;
+}
+
+#phaseDiveTwo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 2s all;
+}
+
+#phaseDiveThree {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 2s all;
+}
+
+#icon-cust-exp {
+    width: 100px;
+    height: 150px;
+    background-image: url("../../images/destination/A-07.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#icon-cust-text {
+    width: 78%;
+}
+
+#icon-fleet-exp {
+    width: 100px;
+    height: 150px;
+    background-image: url("../../images/destination/B-07.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#icon-fleet-text {
+    width: 78%;
+}
+
+#icon-green-exp {
+    width: 100px;
+    height: 150px;
+    background-image: url("../../images/destination/C-07.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#icon-green-text {
+    width: 78%;
+}
+
+#icon-en-exp {
+    width: 100px;
+    height: 150px;
+    background-image: url("../../images/destination/D-07.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#icon-en-text {
+    width: 78%;
+}
+
+.threePhaseControl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnHead {
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.right-arrow {
+    height: 20px;
+    width: 20%;
+    background-image: url("../../images/destination/arrow.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btnCtrl {
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnCtrlGeneric {
+    background-color: #333333;
+}
+
+.ctrlBtnOne {
+    background-image: linear-gradient(to right, #2a96d4, #2e3c99);
+}
+
+.ctrlBtnTwo {
+    background-image: linear-gradient(to right, #006837, #37a265);
+}
+
+.ctrlBtnThree {
+    background-image: linear-gradient(to right, #4e1d92, #8558d2);
+}
+
+.cardText {
+    width: calc(100% - 150px);
+}
+
+.threePhase {
+    height: 60%;
+}
+
+#panels #panels-container {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+#panels #panels-container .panel {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/* mobile portrait */
+
+@media only screen and (max-width: 567px) {}
+
+/* mobile landscape, tab */
+
+@media only screen and (min-width: 568px) and (max-width: 1024px) {}
+
+@keyframes fade {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes mymove {
+    40% {
+        transform: rotate(30deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.hardware-fixed-head {
+    position: absolute;
+    z-index: 99;
+    top: 30%;
+    left: 20%;
+}

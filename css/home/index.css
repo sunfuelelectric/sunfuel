@@ -1,0 +1,88 @@
+.scroll-container {
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+    position: absolute;
+}
+
+section {
+    height: 100%;
+    scroll-snap-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.snap {
+    height: 100%;
+    width: 100%;
+}
+
+.fullArea {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hs1-layer1 {
+    z-index: 1;
+    position: absolute;
+    background-image: url("../../images/home/layer-1.png");
+}
+
+.hs1-layer2 {
+    z-index: 2;
+    position: absolute;
+    background-image: url("../../images/home/layer-2.png");
+}
+
+.hs1-layer3 {
+    z-index: 3;
+    position: absolute;
+    background-image: url("../../images/home/layer-3.png");
+}
+
+.hs1-layer4 {
+    z-index: 4;
+    position: absolute;
+    width: 45%;
+    right: 25%;
+    height: 65%;
+    background-image: url("../../images/home/layer-4.svg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.hs1-layer5 {
+    z-index: 5;
+    position: absolute;
+    background-image: url("../../images/home/layer-5.png");
+}
+
+.hs1-layer6 {
+    z-index: 6;
+    position: absolute;
+    background-image: url("../../images/home/layer-6.png");
+}
+
+.hs1-layer7 {
+    z-index: 7;
+    position: absolute;
+    width: 45%;
+    right: 25%;
+    height: 65%;
+}
+
+.l4-text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-weight: 600;
+    font-size: 22px;
+    cursor: pointer;
+}
