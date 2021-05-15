@@ -1,0 +1,141 @@
+.scroll-container {
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+    position: absolute;
+}
+
+section {
+    height: 100%;
+    scroll-snap-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.snap {
+    height: 100%;
+    width: 100%;
+}
+
+.fullArea {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.img-container {
+    position: relative;
+    height: calc(80vh - .25in);
+    width: 60%;
+    left: 50%;
+    top: calc(50% + .25in);
+    transform: translate(-50%, -50%);
+}
+
+.img-slides {
+    display: none;
+}
+
+.img-slide {
+    height: 64vh;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img-slide1 {
+    background-image: url("../../images/etrails/1.jpg");
+}
+
+#img-slide2 {
+    background-image: url("../../images/etrails/2.jpg");
+}
+
+#img-slide3 {
+    background-image: url("../../images/etrails/3.jpg");
+}
+
+#img-slide4 {
+    background-image: url("../../images/etrails/2.jpg");
+}
+
+.img-row {
+    height: 16vh;
+    width: 100%;
+    display: flex;
+}
+
+.img-control {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#img-control-1 {
+    background-image: url("../../images/etrails/1.jpg");
+    border-radius: 0 0 0 20px;
+}
+
+#img-control-2 {
+    background-image: url("../../images/etrails/2.jpg");
+}
+
+#img-control-3 {
+    background-image: url("../../images/etrails/3.jpg");
+}
+
+#img-control-4 {
+    background-image: url("../../images/etrails/2.jpg");
+    border-radius: 0 0 20px 0;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: var(--offBlack);
+    font-weight: 500;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.prev {
+    left: -5%;
+}
+
+.next {
+    right: -5%;
+    border-radius: 3px 0 0 3px;
+}
+
+.img-control {
+    opacity: 0.6;
+}
+
+.active, .img-control:hover {
+    opacity: 1;
+}
