@@ -4,13 +4,13 @@
     width: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
-    scroll-snap-type: y mandatory;
+    /* scroll-snap-type: y mandatory; */
     position: absolute;
 }
 
 section {
     height: 100%;
-    scroll-snap-align: center;
+    /* scroll-snap-align: center; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,4 +138,38 @@ img {
 
 .active, .img-control:hover {
     opacity: 1;
+}
+
+#img-section {
+    background-image: url("../../images/etrails/VEA.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#comma {
+    width: 100%;
+    height: 45px;
+    background-image: url("../../images/etrails/quote.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#img-gp {
+    height: 70vh;
+    width: 30vw;
+    background-image: url("../../images/etrails/gp.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#img-svp {
+    height: 70vh;
+    width: 30vw;
+    background-image: url("../../images/etrails/svp.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
