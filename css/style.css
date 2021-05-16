@@ -143,6 +143,9 @@ section {
     font-size: 22px!important;
     font-weight: 500;
 }
+.text-med{
+    font-size: 16px!important; 
+}
 .text-small{
 padding: 0!important;
 font-size: 14px!important;
