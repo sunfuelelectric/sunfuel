@@ -1,29 +1,29 @@
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.utils.toArray(".up_reveal").forEach(function (elem) {
+gsap.utils.toArray(".flyIn_left").forEach(function (elem) {
   gsap.from(elem, {
     scrollTrigger: {
       trigger: elem,
       start: "top 60%",
-      end: "+=50 0%",
+      end: "100px 20%",
       toggleActions: "restart complete none reverse"
     },
-    y: 200,
+    x: 200,
     autoAlpha: 0,
     ease: "expo",
     duration: 2
   })
 });
 
-gsap.utils.toArray(".up_reveal_small").forEach(function (elem) {
+gsap.utils.toArray(".flyIn_right").forEach(function (elem) {
   gsap.from(elem, {
     scrollTrigger: {
       trigger: elem,
-      start: "top 95%",
-      end: "+=50 0%",
+      start: "top 60%",
+      end: "100px 20%",
       toggleActions: "restart complete none reverse"
     },
-    y: 200,
+    x: -200,
     autoAlpha: 0,
     ease: "expo",
     duration: 2
@@ -57,4 +57,5 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
   // captionText.innerHTML = dots[slideIndex - 1].alt;
+  ScrollTrigger.refresh()
 }
