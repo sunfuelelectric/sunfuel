@@ -9,10 +9,10 @@ gsap.to(panels, {
     trigger: "#panels-container",
     pin: "#panels",
     start: "top top",
-    scrub: 1,
+    scrub: .5,
     snap: {
       snapTo: 1 / (panels.length - 1),
-      duration: { min: 0.1, max: 0.1 }
+      duration: { min: 1, max: 1 }
     },
     end: () => "+=" + document.querySelector("#panels-container").offsetWidth,
     autoAlpha: 0
@@ -36,8 +36,8 @@ gsap.utils.toArray(".up_reveal").forEach(function (elem) {
 
 gsap.from("#charge-ring", {
   scrollTrigger: {
-    trigger: "#charge-ring",
-    start: "5% 80%",
+    trigger: "#charge-360",
+    start: "top 80%",
     end: "+=50 0%",
     toggleActions: "restart complete none reset"
   },
