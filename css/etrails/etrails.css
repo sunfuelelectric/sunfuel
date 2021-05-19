@@ -124,12 +124,12 @@ img {
 }
 
 .prev {
-    left: -5%;
+    left: -10%;
 }
 
 .next {
-    right: -5%;
-    border-radius: 3px 0 0 3px;
+    right: -10%;
+    /* border-radius: 3px 0 0 3px; */
 }
 
 .img-control {
@@ -173,6 +173,7 @@ img {
     background-size: contain;
     background-repeat: no-repeat;
 }
-.right-div,.left-div{
-text-align: center;
+
+.right-div, .left-div {
+    text-align: center;
 }
